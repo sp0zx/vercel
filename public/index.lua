@@ -7,7 +7,7 @@ local UserClientID = RAS:GetClientId() -- gets the hwid of the plr
 local UserKey = tostring(_G.Dex_Key) -- _G.Dex_Key (turns the current plrs key into a string)
 
 local DexKeys = { -- all of the whitelisted hwid
-  "AD275A5E-A797-4C7B-B605-4FDE30657B8C" 
+  "AD275A5E-A797-4C7B-B605-4FDE30657B8" 
 }
 
 -- Check if the key is whitelisted

@@ -1,6 +1,6 @@
 --// i will be adding notes for my future self if i forget
 
-if not _G.Dex_Key then return print("No '_G.Dex_Key' Found" end -- checks for _g.Dex_Key (required for plr key)
+if not _G.Dex_Key then return print("No '_G.Dex_Key' Found") end -- checks for _g.Dex_Key (required for plr key)
 
 local RAS = game:GetService("RbxAnalyticsService")
 local UserClientID = RAS:GetClientId() -- gets the hwid of the plr

@@ -6,10 +6,7 @@ local RAS = game:GetService("RbxAnalyticsService")
 local UserClientID = RAS:GetClientId() -- gets the hwid of the plr
 local UserKey = tostring(_G.Dex_Key) -- _G.Dex_Key (turns the current plrs key into a string)
 
-local Repo = "https://raw.githubusercontent.com/sp0zx/vercel/"
-local KeyFolder = "refs/heads/main/rbx_api.lua"
-
-local DexKeys = loadstring(game:HttpGet(Repo .. KeyFolder))() -- a list of whitelisted keys/hwid's
+local DexKeys = loadstring(game:HttpGet("https://dex-suite.vercel.app/rbx-api.lua"))() -- a list of whitelisted keys/hwid's
 if not DexKeys then return end
 
 -- Check if the key is whitelisted

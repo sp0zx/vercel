@@ -1,5 +1,6 @@
 local datastores = {
   "AD275A5E-A797-4C7B-B605-4FDE30657B8C",
+  "95711418-1F5F-489E-B9AE-74DAA0060A64"
 }
 
 return datastores
